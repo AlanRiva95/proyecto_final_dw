@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-color: black !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    
+
+    .titulo{
+        color:whitesmoke;
+        text-align: center;
+        position: relative;
+        margin-top: 180px;
+        margin-bottom: 25px;
+        text-shadow: rgb(34, 34, 117) 5px 15px 50px;
+        font-family: "Chonburi", serif;
+        font-size: 25px;
+        font-style: normal;
+        z-index: -1;
+        
+    
+        
+    }  
+  
+    
+
+     h1{
+        font-size: 3em;
+        }
+        
+        .subtitulo{
+            font-size: 5px;
+            color: whitesmoke;
+            text-align: center;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            margin-top: 100px;
+        }
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .pagina{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+
+}

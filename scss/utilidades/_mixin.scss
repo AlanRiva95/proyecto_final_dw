@@ -1,0 +1,29 @@
+
+@mixin fuente{
+    /*font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 100px;*/
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Sedan", serif;
+    font-style: normal;
+    padding: 30px 30px;
+    color:white;
+    background: rgba(58, 61, 53, 0.596);
+    }
+    
+    
+    
+
+
+//nuevos
+
+.descripcion{
+    @include fuente;
+}
