@@ -10,6 +10,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /*h1*/
+  /*fin h1 y subtitulo*/
+  /*fotter*/
 }
 body .titulo {
   color: whitesmoke;
@@ -41,11 +44,11 @@ body img {
 body .pagina {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 150px;
 }
 
 header {
-  background-color: none;
+  background: transparent;
   position: sticky;
   top: 0px;
   font-family: "Chonburi", serif;
@@ -94,19 +97,13 @@ header .navbar-toggler-icon {
   background-color: transparent !important;
 }
 
-.logo2 {
-  margin: 10px;
-  object-fit: cover;
-  grid-column: 3/5;
-  grid-row: 3/5;
-}
-
 .photo-grid2 {
   justify-content: center;
   display: flex;
   margin-bottom: 10px;
 }
 
+/*logo A secundario*/
 .logo4 {
   border-radius: 100%;
   width: 150px;
@@ -115,9 +112,14 @@ header .navbar-toggler-icon {
   justify-content: center;
 }
 
-.carousel-inner .item img {
-  width: 640px;
-  height: 360px;
+/*fin logo A secundario*/
+.carousel {
+  width: 90%;
+  height: 80%;
+  justify-content: center !important;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
 .frascos-cinco {
@@ -185,7 +187,7 @@ img{
   font-style: normal;
   padding: 30px 30px;
   color: white;
-  background: rgba(58, 61, 53, 0.596);
+  background: rgba(58, 61, 53, 0.39);
 }
 
 /*# sourceMappingURL=estilos.css.map */

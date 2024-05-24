@@ -1,18 +1,11 @@
 //nuevos
 
-.logo2{
-    margin: 10px;
-    object-fit: cover;
-    grid-column: 3 / 5;
-    grid-row: 3 / 5;
-   }
-
 .photo-grid2{
     justify-content: center;
     display: flex;
     margin-bottom: 10px;
 }
-
+/*logo A secundario*/
 .logo4{
     border-radius: 100%;
     width: 150px;
@@ -21,9 +14,15 @@
     justify-content: center;
 }
 
-.carousel-inner .item img {
-    width:640px;
-    height:360px;
+/*fin logo A secundario*/
+
+.carousel {
+    width:90%;
+    height:80%;
+    justify-content: center !important;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
   }
 
 .frascos-cinco{
