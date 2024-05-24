@@ -21,11 +21,10 @@
     justify-content: center;
 }
 
-.carousel-item{
-    margin-top: 50px;
-  
-}
-
+.carousel-inner .item img {
+    width:640px;
+    height:360px;
+  }
 
 .frascos-cinco{
     width: 100% !important;
