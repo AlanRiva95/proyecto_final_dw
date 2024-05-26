@@ -1,5 +1,8 @@
+/* nav bar*/
+
 header {
-    background: transparent;
+    background: #2d32383f;
+    backdrop-filter: blur(8px) !important;
     position: sticky;
     top :0px;
     font-family: "Chonburi", serif;
@@ -13,8 +16,7 @@ header {
 
     .navbar-brand{
         color: whitesmoke !important;
-        
-      
+    
     }
 
     /*menu aromas*/
@@ -32,10 +34,11 @@ header {
         font-weight: bolder;
         
     }
+    /*linea de icon nav bar*/
     .navbar-toggler-icon{
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28247, 245, 245, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
-   
+    /*fin linea de icon nav bar*/
    
 }
 .nav-link{
@@ -46,14 +49,15 @@ header {
 
     color: rgb(218, 156, 41) !important;
 }
+
 /*borde de boton de expancion*/
 .navbar-toggler{
     color: rgb(218, 156, 41) !important;
-    
+
 }
 
 .navbar-toggler{
-    background-color: none!important;
+    background-color: none !important;
 }
 .dropdown-item:hover{
     background-color: transparent !important;

@@ -47,14 +47,18 @@ body .pagina {
   margin-top: 150px;
 }
 
+/* nav bar*/
 header {
-  background: transparent;
+  background: rgba(45, 50, 56, 0.2470588235);
+  backdrop-filter: blur(8px) !important;
   position: sticky;
   top: 0px;
   font-family: "Chonburi", serif;
   font-style: normal;
   z-index: 1;
   /*menu aromas*/
+  /*linea de icon nav bar*/
+  /*fin linea de icon nav bar*/
 }
 header .nav-item:hover {
   font-weight: bolder !important;
