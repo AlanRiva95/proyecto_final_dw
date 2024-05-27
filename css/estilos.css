@@ -119,6 +119,7 @@ header .navbar-toggler-icon {
 }
 
 /*fin logo A secundario*/
+/*carousel de fotos*/
 .carousel {
   width: 80%;
   height: 80%;
@@ -128,10 +129,24 @@ header .navbar-toggler-icon {
   padding: 5px !important;
 }
 
+/* fin carousel de fotos*/
 .frascos-seis {
   width: 100% !important;
   height: 100% !important;
   object-fit: cover !important;
+}
+
+.descripcion-dos {
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Sedan", serif;
+  font-style: italic;
+  padding: 30px 30px;
+  color: #ffbf47;
+  text-shadow: 5px -1px 1px rgb(43, 31, 31) !important;
+  background: rgba(58, 61, 53, 0.39);
 }
 
 .descripcion {
