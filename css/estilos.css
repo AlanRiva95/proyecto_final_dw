@@ -136,13 +136,8 @@ header .navbar-toggler-icon {
   object-fit: cover !important;
 }
 
-.carousel-container {
-  width: 80%;
-  height: 75%;
-  margin-left: 40px;
-  margin-right: 30px;
-  margin-top: 20px;
-  padding: 5px !important;
+h3 {
+  display: none;
 }
 
 .descripcion-dos {
@@ -169,6 +164,92 @@ header .navbar-toggler-icon {
   color: white;
   text-shadow: 5px -1px 1px rgb(2, 2, 2) !important;
   background: rgba(58, 61, 53, 0.39);
+}
+
+/*mq desktop*/
+@media screen and (min-width: 980px) {
+  body {
+    /*borde de boton de expancion*/
+    /*carousel*/
+    /*titulo*/
+  }
+  body header {
+    background: rgba(45, 50, 56, 0.2470588235);
+    backdrop-filter: blur(8px) !important;
+    position: sticky;
+    top: 0px;
+    font-family: "Chonburi", serif;
+    font-style: normal;
+    z-index: 3 !important;
+    /*menu aromas*/
+    /*linea de icon nav bar*/
+    /*fin linea de icon nav bar*/
+  }
+  body header .nav-item:hover {
+    font-weight: bolder !important;
+  }
+  body header .navbar-brand {
+    color: whitesmoke !important;
+  }
+  body header .dropdown-menu {
+    background: rgba(45, 50, 56, 0.7411764706) !important;
+    backdrop-filter: blur(8px) !important;
+    border: none !important;
+  }
+  body header .dropdown-item {
+    color: whitesmoke !important;
+  }
+  body header .dropdown-item:hover {
+    color: rgb(218, 156, 41) !important;
+    font-weight: bolder;
+  }
+  body header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28247, 245, 245, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  body .nav-link {
+    color: whitesmoke !important;
+  }
+  body .nav-link:hover {
+    color: rgb(218, 156, 41) !important;
+  }
+  body .navbar-toggler {
+    color: rgb(218, 156, 41) !important;
+  }
+  body .navbar-toggler {
+    background-color: transparent !important;
+  }
+  body .dropdown-item:hover {
+    background-color: transparent !important;
+  }
+  body .container-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    place-items: center;
+    width: 80%;
+    height: 75%;
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 5px !important;
+  }
+  body h1 {
+    font-size: 3em;
+  }
+  body h3 {
+    display: grid;
+    color: whitesmoke;
+    place-content: center;
+    font-size: 50px;
+    font-family: "Sedan", serif;
+    font-style: italic;
+    text-shadow: 5px -1px 30px rgb(218, 156, 41) !important;
+  }
+  body .pagina {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
